@@ -1,0 +1,15 @@
+{
+  "full_name": "Gunnar Voet",
+  "email": "email@domain",
+  "github_username": "gunnarvoet",
+  "project_name": "NewPackage",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Bare bones structure for Python package with pdoc documentation.",
+  "python_version": 3.12,
+  "version": "2023.12.0",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "custom_pdoc_theme": "y",
+  "_copy_without_render": [
+        ".github/workflows/docs.yml"
+    ]
+}
