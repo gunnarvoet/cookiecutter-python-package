@@ -45,4 +45,4 @@ Changelog = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutt
 # xfail_strict = true
 # filterwarnings = ["error"]
 # log_cli_level = "info"
-testpaths = ["{{ cookiecutter.project_slug }}/tests"]
+testpaths = ["src/{{ cookiecutter.project_slug }}/tests"]
