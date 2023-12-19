@@ -14,7 +14,17 @@ license = {file = "LICENSE"}
 keywords = ["physical oceanography"]
 classifiers = [
     "Development Status :: 3 - Alpha",
+{% if cookiecutter.open_source_license == 'MIT license' -%}
     "License :: OSI Approved :: MIT License",
+{% elif cookiecutter.open_source_license == 'BSD license' %}
+    "License :: OSI Approved :: BSD License",
+{% elif cookiecutter.open_source_license == 'ISC license' -%}
+    "License :: OSI Approved :: ISC License (ISCL)",
+{% elif cookiecutter.open_source_license == 'Apache Software License 2.0' -%}
+    "License :: OSI Approved :: Apache Software License",
+{% elif cookiecutter.open_source_license == 'GNU General Public License v3' -%}
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+{% endif %}
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
     "Intended Audience :: Science/Research",
