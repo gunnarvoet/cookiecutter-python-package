@@ -22,7 +22,7 @@ Wide image:
 
 # License
 
-.. include:: ../LICENSE
+.. include:: ../../LICENSE
 """
 
 __author__ = """{{ cookiecutter.full_name }}"""
